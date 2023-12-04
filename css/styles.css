@@ -1,0 +1,103 @@
+:root {
+  --brand-color: #4d5ae5;
+  --navy-color: #2e2f42;
+  --black-color: #434455;
+  --white-color: #ffffff;
+  --button-backround-color: #f4f4fd;
+  --border-button-color: #e7e9fc;
+
+  --text-font-family: "Roboto", sans-serif;
+  --logo-font-family: "Raleway", sans-serif;
+}
+
+.nav-link {
+  color: var(--navy-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+.address-phone-number {
+  color: var(--black-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+.hero-header {
+  background-color: var(--navy-color);
+  color: var(--white-color);
+  font-family: var(--text-font-family);
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 107.143%; /* 107.143% */
+  letter-spacing: 1.12px;
+}
+
+.order-service-button {
+  background: var(--brand-color);
+  color: var(--white-color);
+  cursor: pointer;
+}
+
+.header-3 {
+  color: var(--navy-color);
+
+  font-family: var(--text-font-family);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 120% */
+  letter-spacing: 0.4px;
+}
+
+.about-header-3 {
+  color: var(--black-color);
+
+  font-family: var(--text-font-family);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+.header-2 {
+  font-family: var(--text-font-family);
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 111.111%; /* 111.111% */
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
+.buttons {
+  background: var(--button-backround-color);
+  color: var(--brand-color);
+  border-color: var(--border-button-color);
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 150% */
+  letter-spacing: 0.64px;
+  cursor: pointer;
+}
+
+.button-all {
+  color: var(--white-color);
+  background: #404bbf;
+
+  font-family: var(--text-font-family);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 150% */
+  letter-spacing: 0.64px;
+}
